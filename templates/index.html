@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<h1>Ayo get it done 📝</h1>
+
+<div class="center">
+    <form class="center" action="/clear" method="post">
+        <input class="center" type="submit" value="Clear">
+    </form>
+</div>
+
+<form action="/todo" method="post">
+    <div class="center">
+        <label>TO DO </label>
+        <input type="text" autocomplete="off" autofocus name="todo" placeholder="Enter your task...">
+        <input type="submit" value="Add">
+    </div>
+    <div class="almost-full">
+        <h2>Tasks: </h2>
+        <ul>
+            {% for todo in to_do_list %}
+            <li>{{todo}}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</form>
+
+
+{% endblock %}
