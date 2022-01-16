@@ -9,7 +9,8 @@
 ## How to run
 
 1. Make sure you have `flask` installed
-2. Navigate to the project folder, where `app.py` lies
-3. Run: `flask run`
+2. Clone this repository to your local machine
+3. Navigate to the project folder, where `app.py` lies
+4. Run: `flask run`
 
 
