@@ -13,4 +13,8 @@
 3. Navigate to the project folder, where `app.py` lies
 4. Run: `flask run`
 
+## Troubleshooting
+
+- If the stylesheet is not properly loaded, try reloading your browser or emptying the cache and refresh.
+
 
