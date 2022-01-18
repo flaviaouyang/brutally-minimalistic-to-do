@@ -3,7 +3,6 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 TO_DO_LIST = []
-print(TO_DO_LIST)
 
 @app.route('/')
 def index():
@@ -14,7 +13,6 @@ def todo():
     if not request.form.get('todo'):
         render_template('index.html', to_do_list = TO_DO_LIST)
     TO_DO_LIST.append(request.form.get('todo'))
-    print(TO_DO_LIST)
     return render_template('index.html', to_do_list = TO_DO_LIST)
 
 @app.route('/clear', methods= ['POST'])
