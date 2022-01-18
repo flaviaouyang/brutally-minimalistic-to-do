@@ -16,7 +16,7 @@ One hour project to learn Flask and Jinja - a painfully simple to do list web ap
 
 # Deployment
 
-There is a [live demo)[https://just-do-it-dammit.herokuapp.com] here.
+There is a [live demo](https://just-do-it-dammit.herokuapp.com) here.
 
 # Issues
 
