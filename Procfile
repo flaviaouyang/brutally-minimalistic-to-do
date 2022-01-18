@@ -1,1 +1,1 @@
-web: gunicorn wsgi:just-do-it-dammit
+web: gunicorn wsgi:app
