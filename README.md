@@ -10,7 +10,7 @@
 
 1. Make sure you have `flask` installed
 2. Clone this repository to your local machine
-3. Navigate to the project folder, where `app.py` lies
+3. Navigate to the project folder
 4. Run: `flask run`
 
 ## Troubleshooting
