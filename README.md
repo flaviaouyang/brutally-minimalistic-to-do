@@ -1,23 +1,25 @@
-# brutally-minimalistic-to-do
+# TO DO LIST
 
-One hour project to learn Flask and Jinja - a painfully simple to do list web app
+One hour project to learn Flask and Jinja
 
-# Tech Stack
+# TECHNOLOGIES
 
-- HTML, Jinja
+- HTML
+- Jinja
 - CSS
-- Python, Flask
+- Python
+- Flask
 
-# Run it on your local machine
+# RUN ON YOUR LOCAL MACHINE
 
 - clone this repository to your machine: `git clone https://github.com/flaviaouyang/brutally-minimalistic-to-do.git`
 - navigate to the project folder where `wgsi.py` lies: `cd /brutally-minimalistic-to-do`
 - run: `flask run` or `python3 wgsi.py`
 
-# Deployment
+# DEMO
 
-There is a [live demo](https://just-do-it-dammit.herokuapp.com) here.
+![demo]()
 
 # Issues
 
-- Deployment is buggy for unknown reasons. There seems to be an issue with returning the correct `index.html`
+- There is an issue with heroku deployment. The github page deployment will not work. The only way to try this project out to download it onto your local machine. My apologies.
