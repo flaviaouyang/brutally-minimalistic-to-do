@@ -18,8 +18,4 @@ One hour project to learn Flask and Jinja
 
 # DEMO
 
-![demo]()
-
-# Issues
-
-- There is an issue with heroku deployment. The github page deployment will not work. The only way to try this project out to download it onto your local machine. My apologies.
+![demo](demo.gif)
